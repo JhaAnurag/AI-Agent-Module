@@ -46,10 +46,10 @@ DEFAULT_SAFETY_SETTINGS = {
 
 try:
     
-    with open("system_prompt_compact.txt", "r", encoding="utf-8") as f:
+    with open("system_prompt.txt", "r", encoding="utf-8") as f:
         SYSTEM_INSTRUCTION_COMPACT_TEXT = f.read()
 except FileNotFoundError:
-    logging.error("system_prompt_compact.txt not found! Agent will likely fail.")
+    logging.error("system_prompt.txt not found! Agent will likely fail.")
     SYSTEM_INSTRUCTION_COMPACT_TEXT = "ERROR: Compact V2 system prompt file missing." 
 
 
