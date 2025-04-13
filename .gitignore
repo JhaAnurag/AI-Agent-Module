@@ -1,0 +1,19 @@
+# Environment variables and secrets
+.env
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+.env/
+
+# JSON data store
+agent_memory.json
